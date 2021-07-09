@@ -136,10 +136,20 @@ a.Button {
     margin-bottom: 80px;
 }
 
+.Button:hover {
+    background-color: rgb(27, 187, 73);
+    transition-duration: 1s;
+}
+
 .tbox {
     border: 1px solid white;
     width: 47%;
     box-sizing: border-box;
     padding: 50px;
     margin-top: 50px;
+}
+
+.tbox p:last-of-type {
+    padding-left: 40px;
+    font-size: 0.9rem;
 }
