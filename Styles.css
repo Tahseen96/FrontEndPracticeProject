@@ -8,6 +8,7 @@ body {
     font-size: 1.125rem;
 }
 .container {
+    background-image: url(/Images/image-lion-background.png);
     width: 1024px;
     min-height: 300px;
     margin-left: auto;
@@ -27,28 +28,38 @@ main{
 }
 
 .cards{
-    background-color: yellow;
-    min-height: 300px;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .card1 {
-    min-height: 300px;
+    min-height: 15.625rem;
+    background-image: url(/Images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
     width: 30%;
-    background-color: violet;
 }
 
 .card2 {
-    min-height: 300px;
-    width: 30%;
-    background-color: rgb(29, 41, 5);
+    min-height: 15.625rem;
+    background-image: url(/Images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;  
 }
 
 .card3 {
-    min-height: 300px;
+    min-height: 15.625rem;
+    background-image: url(/Images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
     width: 30%;
-    background-color: rgb(130, 76, 66);
+}
+
+.card1, .card2, .card3 {
+    box-sizing: border-box;
+    padding: 30px 30px 20px 30px;
 }
 
 .Box1 {
@@ -71,7 +82,40 @@ h1 {
     margin-bottom: 1.10rem;
 }
 
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+}
+
 p {
     line-height: 1.65rem;
     margin-bottom: 0.6rem;
+}
+
+.cards p {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    margin-top: 0.625rem;
+}
+
+i {
+    font-size: 5.5rem;
+    margin-bottom: 1.4rem;
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
+.Box1 a {
+    text-decoration: none;
+    color: #FC5E55;
+    background-color: white;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 2px;
 }
